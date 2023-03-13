@@ -38,7 +38,7 @@ const ReducerQ1Page = () => {
     });
   };
   const onDeleteIngredient = (id) => {
-    dispatch({ type: "DELETE_BTN", payload: { id } }); // ㅎㅎ
+    dispatch({ type: "DELETE_BTN", payload: { id } }); // ㅎ
   };
   console.log(ingredients);
   return (
