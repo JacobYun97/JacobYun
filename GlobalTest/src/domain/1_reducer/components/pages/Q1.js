@@ -38,7 +38,7 @@ const ReducerQ1Page = () => {
     });
   };
   const onDeleteIngredient = (id) => {
-    dispatch({ type: "DELETE_BTN", payload: { id } }); // ㅎ
+    dispatch({ type: "DELETE_BTN", payload: { id } }); // 깃헙 데스크탑 확인용
   };
   console.log(ingredients);
   return (
